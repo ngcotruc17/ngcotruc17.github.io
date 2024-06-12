@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nguyễn Công Trực - Trang Cá Nhân</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff40;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77b300 3px solid;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+            font-size: 16px;
+        }
+        header ul {
+            padding: 0;
+            list-style: none;
+        }
+        header li {
+            float: right;
+            display: inline;
+            padding: 0 20px 0 20px;
+        }
+        .showcase {
+            position: relative;
+            min-height: 400px;
+            background: url('it-overlay.jpg') no-repeat center center/cover;
+            text-align: center;
+            color: #fff;
+        }
+        .showcase::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Adjust the overlay opacity */
+            z-index: 1;
+        }
+        .showcase h1, .showcase p {
+            position: relative;
+            z-index: 2;
+        }
+        .showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        .showcase p {
+            font-size: 20px;
+        }
+        section {
+            padding: 20px 0;
+            border-bottom: #77b300 2px solid;
+        }
+        footer {
+            padding: 20px;
+            margin-top: 20px;
+            color: #fff;
+            background-color: #333;
+            text-align: center;
+        }
+        .social a {
+            padding: 0 15px;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1><span class="highlight">Nguyễn Công Trực</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#contact">Liên Hệ</a></li>
+                    <li><a href="#projects">Dự Án</a></li>
+                    <li><a href="#experience">Kinh Nghiệm</a></li>
+                    <li><a href="#about">Giới Thiệu</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="showcase">
+        <div class="container">
+            <h1>Chào Mừng Đến Với Trang Cá Nhân Của Tôi</h1>
+            <p>Tôi là Nguyễn Công Trực, nhà phát triển phần mềm đầy đam mê và sáng tạo.</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>Giới Thiệu</h2>
+            <p>Nguyễn Công Trực là một người năng động và sáng tạo, đam mê công nghệ và lập trình. Anh ấy hiện đang làm việc như một nhà phát triển phần mềm, với sở thích đặc biệt trong việc phát triển ứng dụng web và di động. Ngoài công việc, Nguyễn Công Trực còn yêu thích thể thao, đọc sách và tham gia các hoạt động xã hội.</p>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Kinh Nghiệm Làm Việc</h2>
+            
+            <h3>Nhà Phát Triển Phần Mềm Tự Do</h3>
+            <p><em>Tháng 01/2020 - Hiện tại</em></p>
+            <ul>
+                <li>Phát triển và duy trì các ứng dụng web và di động sử dụng công nghệ JavaScript, React, và Node.js.</li>
+                <li>Thiết kế và triển khai cơ sở dữ liệu bằng MongoDB và MySQL.</li>
+                <li>Tham gia vào toàn bộ vòng đời phát triển phần mềm, từ phân tích yêu cầu đến triển khai và bảo trì.</li>
+                <li>Hợp tác với các đội nhóm đa ngành để phát triển các giải pháp công nghệ tiên tiến.</li>
+                <li>Đào tạo và hướng dẫn các thành viên mới trong đội phát triển.</li>
+            </ul>
+    
+            <h3>Thực Tập Sinh - FPT Software</h3>
+            <p><em>Tháng 06/2019 - Tháng 12/2019</em></p>
+            <ul>
+                <li>Hỗ trợ trong việc phát triển các ứng dụng web sử dụng HTML, CSS, và JavaScript.</li>
+                <li>Thực hiện kiểm thử phần mềm và báo cáo các lỗi phát hiện được.</li>
+                <li>Tham gia vào các cuộc họp lập kế hoạch và đánh giá dự án.</li>
+                <li>Tạo và duy trì tài liệu kỹ thuật cho các dự án.</li>
+            </ul>
+    
+            <h3>Dự Án Cá Nhân</h3>
+            <p><em>Tháng 01/2018 - Tháng 05/2019</em></p>
+            <ul>
+                <li>Phát triển ứng dụng quản lý công việc cá nhân sử dụng React và Firebase.</li>
+                <li>Tạo một blog cá nhân sử dụng Gatsby và GraphQL để chia sẻ kiến thức về lập trình.</li>
+                <li>Xây dựng ứng dụng di động đơn giản sử dụng React Native cho hệ điều hành iOS và Android.</li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <section id="projects">
+        <div class="container">
+            <h2>Dự Án</h2>
+            
+            <h3>Quản Lý Công Việc - TaskMaster</h3>
+            <p><em>Tháng 01/2023 - Tháng 06/2023</em></p>
+            <ul>
+                <li><strong>Mô tả:</strong> Ứng dụng quản lý công việc cho phép người dùng tạo, chỉnh sửa và xóa các công việc cần làm hàng ngày.</li>
+                <li><strong>Công nghệ sử dụng:</strong> React, Node.js, Express, MongoDB.</li>
+                <li><strong>Vai trò:</strong> Nhà phát triển chính, chịu trách nhiệm thiết kế giao diện người dùng và logic phía máy chủ.</li>
+            </ul>
+    
+            <h3>Mạng Xã Hội Mini - MiniSocial</h3>
+            <p><em>Tháng 07/2022 - Tháng 12/2022</em></p>
+            <ul>
+                <li><strong>Mô tả:</strong> Mạng xã hội nhỏ cho phép người dùng đăng bài, bình luận và kết bạn với nhau.</li>
+                <li><strong>Công nghệ sử dụng:</strong> Angular, Firebase, Bootstrap.</li>
+                <li><strong>Vai trò:</strong> Nhà phát triển frontend, chịu trách nhiệm phát triển giao diện người dùng và tích hợp với backend.</li>
+            </ul>
+    
+            <h3>Ứng Dụng Theo Dõi Sức Khỏe - HealthTracker</h3>
+            <p><em>Tháng 01/2022 - Tháng 06/2022</em></p>
+            <ul>
+                <li><strong>Mô tả:</strong> Ứng dụng di động giúp người dùng theo dõi sức khỏe, ghi lại các hoạt động thể chất và theo dõi chế độ ăn uống.</li>
+                <li><strong>Công nghệ sử dụng:</strong> React Native, Redux, SQLite.</li>
+                <li><strong>Vai trò:</strong> Nhà phát triển chính, chịu trách nhiệm phát triển toàn bộ ứng dụng và tích hợp cơ sở dữ liệu.</li>
+            </ul>
+            
+            <h3>Trang Blog Cá Nhân - MyTechBlog</h3>
+            <p><em>Tháng 06/2021 - Tháng 12/2021</em></p>
+            <ul>
+                <li><strong>Mô tả:</strong> Blog cá nhân chia sẻ kiến thức về lập trình và công nghệ thông tin.</li>
+                <li><strong>Công nghệ sử dụng:</strong> Gatsby, GraphQL, Netlify CMS.</li>
+                <li><strong>Vai trò:</strong> Nhà phát triển duy nhất, chịu trách nhiệm phát triển và triển khai trang blog.</li>
+            </ul>
+    
+            <h3>Ứng Dụng Học Tập Trực Tuyến - LearnOnline</h3>
+            <p><em>Tháng 01/2021 - Tháng 05/2021</em></p>
+            <ul>
+                <li><strong>Mô tả:</strong> Ứng dụng web học tập trực tuyến cho phép người dùng tham gia các khóa học và bài kiểm tra trực tuyến.</li>
+                <li><strong>Công nghệ sử dụng:</strong> Vue.js, Firebase, Tailwind CSS.</li>
+                <li><strong>Vai trò:</strong> Nhà phát triển frontend và backend, chịu trách nhiệm thiết kế giao diện và phát triển các tính năng phía máy chủ.</li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <div class="container">
+            <h2>Liên Hệ</h2>
+            <p>Để liên lạc với tôi, bạn có thể sử dụng các kênh sau:</p>
+            <ul>
+                <li>Email: <a href="mailto:nguyencongtruc.work@gmail.com">nguyencongtruc.work@gmail.com</a></li>
+                <li>Facebook: <a href="https://facebook.com/ngcotruc19" target="_blank">facebook.com/ngcotruc19</a></li>
+                <li>TikTok: <a href="https://tiktok.com/@tuilakaito" target="_blank">tiktok.com/@tuilakaito</a></li>
+                <li>Phone: (+84) 923 961 253</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <p>Nguyễn Công Trực &copy; 2024</p>
+        <div class="social">
+            <a href="https://facebook.com/your-profile" target="_blank">Facebook</a> | 
+            <a href="https://tiktok.com/@your-profile" target="_blank">TikTok</a> | 
+            <a href="mailto:nguyencongtruc.work@gmail.com">Gmail</a>
+        </div>
+    </footer>
+</body>
+</html>
